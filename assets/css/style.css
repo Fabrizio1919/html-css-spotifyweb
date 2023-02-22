@@ -5,6 +5,20 @@
 }
 
 /* #region Utilities */
+
+:root {
+    --primary:#080b12 ;
+    --secondary : #141922 ;
+    --light : #fefefe; 
+    --foot : #282828;
+    
+
+}
+
+
+
+
+
 .d_flex {
     display: flex;
 }
