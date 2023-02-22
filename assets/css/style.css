@@ -31,6 +31,10 @@ img {
     max-width: 100%;
 }
 
+.col_2 {
+    width: calc(100% / 12 * 2);
+}
+
 
 
 /* #endregion Utilities */
@@ -124,19 +128,29 @@ footer.bar_bottom {
         width: calc(100% - 140px);
     }
 
+
+    .col_md_2 {
+        width: calc(100% / 12 * 2);
+    }
+
     
 }
 
 @media screen and (min-width:1200px) {
+    
     .bar_top > .sidebar {
         width: 210px;
-     }
-     
-     .bar_top > .content {
-         width: calc(100% - 210px);
-     }
- 
+    }
     
+    .bar_top > .content {
+        width: calc(100% - 210px);
+    }
+    
+
+    
+    .col_lg_2 {
+        width: calc(100% / 12 * 2);
+    }
 }
 
 
