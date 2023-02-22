@@ -127,6 +127,18 @@ footer.bar_bottom {
     
 }
 
+@media screen and (min-width:1200px) {
+    .bar_top > .sidebar {
+        width: 210px;
+     }
+     
+     .bar_top > .content {
+         width: calc(100% - 210px);
+     }
+ 
+    
+}
+
 
 
 
