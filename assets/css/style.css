@@ -64,10 +64,13 @@ img {
     background-color: var(--light);
 }
 .debug .upgrade {
-    background-color: var(--upgrade);
-    
+    background-color: var(--upgrade);   
 }
 
+.debug [class^="col_"] {
+    height: 100px;
+    border: 1px dashed white;
+}
 
 
 
