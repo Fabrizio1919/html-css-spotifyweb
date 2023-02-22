@@ -11,8 +11,6 @@
     --secondary : #141922 ;
     --light : #fefefe; 
     --foot : #282828;
-    
-
 }
 
 
@@ -37,20 +35,28 @@
 /* #region debug */
 
 .debug .bar_top {
-    background-color: red;
+    background-color:var(--secondary);
 }
 
 .debug footer {
-    background-color: orange;
+    background-color: var(--foot);
 }
 
 .debug .sidebar {
-    background-color: purple;
+    background-color:var(--primary);
 }
 
 .debug .content {
-    background-color: aquamarine;
+    background-color: var(--secondary);
 }
+
+.debug .sidebar_bottom {
+    background-color: var(--light);
+}
+
+
+
+
 
 /* #endregion debug */
 
@@ -62,27 +68,54 @@
 
 .bar_top > .sidebar {
     width: 70px;
+    overflow: hidden;
 }
 
-.bar_top > .sidebar_top {
+
+.bar_top .sidebar_top {
     height: calc(100% - 60px)
 }
 
-.bar_top > .sidebar_bottom {
+.bar_top .sidebar_bottom {
     height: 60px;
+}
+
+.bar_top > .content {
+    width: calc(100% - 70px);
+    overflow-y: auto;
 }
 
 
 
 
 
-
-footer .bar_bottom {
+footer.bar_bottom {
     height: 70px;
 }
 
 
 /* #endregion Layout */
+
+
+/* #region Responsive 768 */
+@media screen and (min-width: 768px) {
+    .bar_top > .sidebar {
+       width: 220px;
+    }
+    
+    .bar_top > .content {
+        width: calc(100% - 220px);
+    }
+
+    
+}
+
+
+
+
+
+
+/* #endregion Responsive 768 */
 
 
 
