@@ -22,6 +22,10 @@
     justify-content: end;
 }
 
+.txt_center {
+    text-align: center;
+}
+
 .d_flex {
     display: flex;
 }
@@ -36,6 +40,14 @@
 
 img {
     max-width: 100%;
+}
+
+.mg_1 {
+    margin: 0 1rem;
+}
+
+.pd_10 {
+    padding: 10px 0;
 }
 
 .col_6 {
@@ -74,12 +86,12 @@ img {
     background-color: var(--upgrade);   
 }
 
-.debug [class^="col_"] {
+/* .debug [class^="col_"] {
     height: 150px;
     border: 1px dashed white;
 }
 
-
+ */
 
 
 /* #endregion debug */
@@ -148,6 +160,34 @@ img {
 
 /* END OPTION */
 
+/* PLAYLIST */
+
+
+.playlist h3 {
+    color: var(--light);
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+
+.name_song h4 {
+    color: var(--light);
+    font-size: 19px;
+}
+
+.name_song p {
+    color: var(--option);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
 
 footer.bar_bottom {
     height: 70px;
@@ -167,7 +207,6 @@ footer.bar_bottom {
         width: calc(100% - 140px);
     }
 
-
     .col_md_3 {
         width: calc(100% / 12 * 3);
     }
@@ -176,6 +215,48 @@ footer.bar_bottom {
         display: block;
     }
     
+     /* OPTION 768*/
+    .option {
+        padding: 1rem;
+    }
+    
+    .option ul {
+        list-style: none;
+        color: var(--option);
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+        gap: 14px;
+        justify-content: center;
+    }
+    /* END OPTION 768 */
+
+
+    /* PLAYLIST 2 */
+
+    .playlist_2 h3 {
+        text-align: left;
+        color: var(--light);
+        padding: 10px 0;
+        
+    }
+
+    .playlist_2 p {
+        color: var(--option);
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .playlist_2 h4 {
+        color: var(--light);
+        font-size: 19px;
+        text-align: center;
+        
+    }
+
+
+
+
 }
 
 @media screen and (min-width:1200px) {
@@ -189,7 +270,6 @@ footer.bar_bottom {
     }
     
 
-    
     .col_lg_2 {
         width: calc(100% / 12 * 2);
     }
@@ -198,6 +278,24 @@ footer.bar_bottom {
     .playlist_2 {
         display: block;
     }
+
+
+       /* OPTION 1200*/
+       .option {
+        padding: 1rem;
+    }
+    
+    .option ul {
+        list-style: none;
+        color: var(--option);
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+        gap: 14px;
+        justify-content: center;
+    }
+    /* END OPTION 1200 */
+
 }
 
 
