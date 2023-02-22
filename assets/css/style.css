@@ -12,8 +12,15 @@
     --light : #fefefe; 
     --foot : #282828;
     --upgrade: #080b12;
+    --option: #73777b;
 }
 
+.align-items-center {
+    align-items: center;
+}
+.justify-content-end {
+    justify-content: end;
+}
 
 .d_flex {
     display: flex;
@@ -78,6 +85,7 @@ img {
 /* #endregion debug */
 
 /* #region Layout */
+/* Struttura */
 .bar_top {
     height: calc(100vh - 70px);
     display: flex;
@@ -88,7 +96,6 @@ img {
     overflow: hidden;
     background-color:var(--primary);
 }
-
 
 .bar_top .sidebar_top {
     height: calc(100% - 60px)
@@ -112,8 +119,34 @@ img {
 .playlist_2 {
     display: none;
 }
+/* #end Struttura */
 
+/* UPGRADE */
+.btn_up {
+    background-color: var(--upgrade);
+    color: var(--light);
+    padding: 10px 30px;
+    border: 1px solid var(--light);
+    border-radius: 2rem;
+    margin: 0 10px;
+}
+/* END UPGRADE */
 
+/* OPTION */
+.option {
+    padding: 1rem;
+}
+
+.option ul {
+    list-style: none;
+    color: var(--option);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    gap: 14px;
+}
+
+/* END OPTION */
 
 
 footer.bar_bottom {
