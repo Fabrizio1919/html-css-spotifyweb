@@ -31,8 +31,8 @@ img {
     max-width: 100%;
 }
 
-.col_2 {
-    width: calc(100% / 12 * 2);
+.col_6 {
+    width: calc(100% / 12 * 6);
 }
 
 
@@ -68,7 +68,7 @@ img {
 }
 
 .debug [class^="col_"] {
-    height: 100px;
+    height: 150px;
     border: 1px dashed white;
 }
 
@@ -132,8 +132,8 @@ footer.bar_bottom {
     }
 
 
-    .col_md_2 {
-        width: calc(100% / 12 * 2);
+    .col_md_3 {
+        width: calc(100% / 12 * 3);
     }
 
     
