@@ -11,6 +11,7 @@
     --secondary : #141922 ;
     --light : #fefefe; 
     --foot : #282828;
+    --upgrade: #080b12;
 }
 
 
@@ -53,6 +54,10 @@
 .debug .sidebar_bottom {
     background-color: var(--light);
 }
+.debug .upgrade {
+    background-color: var(--upgrade);
+    
+}
 
 
 
@@ -69,6 +74,7 @@
 .bar_top > .sidebar {
     width: 70px;
     overflow: hidden;
+    background-color:var(--primary);
 }
 
 
@@ -83,6 +89,12 @@
 .bar_top > .content {
     width: calc(100% - 70px);
     overflow-y: auto;
+    background-color: var(--secondary);
+}
+
+.bar_top > .content .upgrade {
+    height: 60px;
+    background-color: var(--upgrade);
 }
 
 
@@ -100,11 +112,11 @@ footer.bar_bottom {
 /* #region Responsive 768 */
 @media screen and (min-width: 768px) {
     .bar_top > .sidebar {
-       width: 220px;
+       width: 140px;
     }
     
     .bar_top > .content {
-        width: calc(100% - 220px);
+        width: calc(100% - 140px);
     }
 
     
