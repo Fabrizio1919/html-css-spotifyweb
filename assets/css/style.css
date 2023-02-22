@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region Utilities */
+.d_flex {
+    display: flex;
+}
+
+.direction_column {
+    flex-direction: column;
+}
+
+
+
+/* #endregion Utilities */
+
+
+
+
+/* #region debug */
+
+.debug .bar_top {
+    background-color: red;
+}
+
+.debug footer {
+    background-color: orange;
+}
+
+.debug .sidebar {
+    background-color: purple;
+}
+
+.debug .content {
+    background-color: aquamarine;
+}
+
+/* #endregion debug */
+
+/* #region Layout */
+.bar_top {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.bar_top > .sidebar {
+    width: 70px;
+}
+
+.bar_top > .sidebar_top {
+    height: calc(100% - 60px)
+}
+
+.bar_top > .sidebar_bottom {
+    height: 60px;
+}
+
+
+
+
+
+
+footer .bar_bottom {
+    height: 70px;
+}
+
+
+/* #endregion Layout */
+
+
+
