@@ -15,15 +15,20 @@
 }
 
 
-
-
-
 .d_flex {
     display: flex;
 }
 
 .direction_column {
     flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
 }
 
 
