@@ -109,6 +109,9 @@ img {
     background-color: var(--upgrade);
 }
 
+.playlist_2 {
+    display: none;
+}
 
 
 
@@ -136,6 +139,9 @@ footer.bar_bottom {
         width: calc(100% / 12 * 3);
     }
 
+    .playlist_2 {
+        display: block;
+    }
     
 }
 
@@ -153,6 +159,11 @@ footer.bar_bottom {
     
     .col_lg_2 {
         width: calc(100% / 12 * 2);
+    }
+
+
+    .playlist_2 {
+        display: block;
     }
 }
 
