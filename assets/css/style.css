@@ -284,12 +284,33 @@ img {
 
 
 
-
-
+/* FOOTER */
 
 footer.bar_bottom {
     height: 70px;
     background-color: var(--foot);
+}
+
+
+.bar_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    padding: 0 1rem;
+    color: var(--light);
+    gap: 10px;
+}
+
+.image_sin img {
+    max-width: 50px;
+}
+
+.footer_left span {
+    font-size: 10px;
+   
+
 }
 
 
