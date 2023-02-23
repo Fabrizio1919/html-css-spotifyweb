@@ -58,6 +58,10 @@ img {
     width: calc(100% / 12 * 6);
 }
 
+.white {
+    color: var(--light);
+}
+
 
 
 /* #endregion Utilities */
@@ -157,6 +161,14 @@ img {
 
 .title_spotify {
     color: var(--light);
+}
+
+
+.utility ul {
+    color: var(--option);
+}
+.utility i {
+    margin: 5px
 }
 
 
