@@ -88,7 +88,7 @@ img {
 }
 
 .debug .sidebar_bottom {
-    background-color: var(--light);
+    /* background-color: var(--light */ */;
 }
 .debug .upgrade {
     background-color: var(--upgrade);   
@@ -115,12 +115,16 @@ img {
     width: 200px;
     overflow: hidden;
     background-color:var(--primary);
+    justify-content: space-between;
    
 }
 
 .bar_top .sidebar_top {
-    height: calc(100% - 60px)
+    max-height: calc(100% - 60px);
+    height: 400px;
+    overflow-y: auto;
 }
+
 
 .bar_top .sidebar_bottom {
     height: 60px;
@@ -190,11 +194,36 @@ img {
     color: var(--option);
     font-size: 15px;
 }
+.list_nome.pd_10 {
+    overflow-y: auto;
+}
 
 .list_nome ul {
     color: var(--option);
     font-size: 15px;
+    max-height: 110px;
     margin-left: 5px;
+}
+
+
+.istalled span {
+    color: var(--option);
+    margin-left: 5px;
+    margin-top: 3px;
+    border-bottom: 1px solid var(--option);
+    padding: 5px 0;
+}
+
+.image_john i {
+    color: var(--light);
+    background-color: var(--option);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    padding: 6px;
+    margin: 8px;
+}
+.image_john span {
+    color: var(--light);
 }
 
 
@@ -260,6 +289,7 @@ img {
 
 footer.bar_bottom {
     height: 70px;
+    background-color: var(--foot);
 }
 
 
