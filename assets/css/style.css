@@ -87,9 +87,10 @@ img {
     background-color: var(--secondary);
 }
 
-.debug .sidebar_bottom {
-    /* background-color: var(--light */ */;
-}
+/* .debug .sidebar_bottom {
+    /*
+     background-color: var(--light */ 
+
 .debug .upgrade {
     background-color: var(--upgrade);   
 }
@@ -298,9 +299,9 @@ footer.bar_bottom {
 }
 
 .footer_left {
-    padding: 0 1rem;
+    padding: 0px 5px;
     color: var(--light);
-    gap: 13px;
+    gap: 5px;
 }
 
 .image_sin img {
@@ -317,7 +318,7 @@ footer.bar_bottom {
 }
 
 .conteiner_icon {
-    gap: 25px;
+    gap: 10px;
 }
 
 .footer_center {
@@ -327,17 +328,26 @@ footer.bar_bottom {
 }
 
 .footer_right {
-    padding: 0 1rem;
+    padding: 0 5px;
     color: var(--light);
-    gap: 13px;
-    font-size: 13px;
+    gap: 8px;
+    font-size: 11px;
+    flex-direction: row-reverse;
 }
 
 .w3-grey {
     height: 3px;
-    width: 290px;
+    width: 160px;
     background-color:lightslategray;
     margin: 6px 0;
+}
+
+.w3-grey_sm {
+    height: 3px;
+    width: 50px;
+    background-color:lightslategray;
+    margin: 6px 0;
+    
 }
 
 
@@ -453,7 +463,17 @@ footer.bar_bottom {
         gap: 13px;
         font-size: 13px;
     }
+
+    .conteiner_icon {
+        gap: 20px;
+    }
     
+    .w3-grey {
+        height: 3px;
+        width: 250px;
+        background-color:lightslategray;
+        margin: 6px 0;
+    }
 
     /* END PLAYLIST 2 768 */
 
@@ -550,6 +570,9 @@ footer.bar_bottom {
         font-size: 13px;
     }
     
+    .conteiner_icon {
+        gap: 30px;
+    }
 
     .w3-grey {
         height: 3px;
