@@ -115,6 +115,7 @@ img {
     width: 200px;
     overflow: hidden;
     background-color:var(--primary);
+   
 }
 
 .bar_top .sidebar_top {
@@ -169,6 +170,31 @@ img {
 }
 .utility i {
     margin: 5px
+}
+
+.btn_playlist {
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.btn_playlist i {
+    color: var(--option);
+    
+}
+
+.btn_playlist h6 {
+    color: var(--light);
+
+}
+.btn_playlist span {
+    color: var(--option);
+    font-size: 15px;
+}
+
+.list_nome ul {
+    color: var(--option);
+    font-size: 15px;
+    margin-left: 5px;
 }
 
 
