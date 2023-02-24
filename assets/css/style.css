@@ -44,7 +44,7 @@ body {
 
 img {
     max-width: 100%;
-    border: 5px solid var(--secondary);
+    
 }
 
 .mg_1 {
@@ -57,6 +57,7 @@ img {
 
 .col_6 {
     width: calc(100% / 12 * 6);
+    padding: 0.3rem;
 }
 
 .white {
@@ -535,6 +536,7 @@ footer.bar_bottom {
 
     .col_lg_2 {
         width: calc(100% / 12 * 2);
+        padding: 0.3rem;
     }
 
 
