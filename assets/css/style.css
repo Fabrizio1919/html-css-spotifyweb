@@ -316,13 +316,18 @@ li:hover a {
     left: 40%;
     top: 35%;
     position: absolute;
-   
+
 }
 
 .playlist .music:hover  i {
     display: block;
     position: absolute;
+    color: white;
     
+}
+
+.music img:hover {
+   opacity: 0.3;
 }
 
 /* END OPTION */
