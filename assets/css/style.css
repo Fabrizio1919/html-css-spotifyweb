@@ -313,8 +313,8 @@ li:hover a {
 
 .music i {
     display: none;
-    left: 40%;
-    top: 35%;
+    left: 36%;
+    top: 32%;
     position: absolute;
 
 }
@@ -631,6 +631,7 @@ footer.bar_bottom {
 
 
 
+
        /* OPTION 1200*/
        .option {
         padding: 1rem;
@@ -644,6 +645,13 @@ footer.bar_bottom {
         font-size: 15px;
         gap: 14px;
         justify-content: center;
+    }
+
+    .list_nome ul {
+    color: var(--option);
+    font-size: 15px;
+    max-height: 120px;
+    margin-left: 5px;
     }
 
 
