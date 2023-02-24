@@ -249,7 +249,7 @@ img {
 .option {
     padding: 1rem;
 }
-.option a {
+ a {
     text-decoration: none;
     color: var(--option);
 }
@@ -263,9 +263,48 @@ img {
     gap: 16px;
 }
 
+/* HOVER */
 li:hover a {
     display: block;
     color: white;
+}
+
+.btn_playlist:hover a {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+.istalled:hover a {
+    display: inline-block;
+    color: white;
+}
+.title_sin:hover a {
+    color: white;
+    text-decoration: underline;
+}
+
+.icon_sm:hover a {
+    display: block;
+    color: white;
+}
+
+.icon_center:hover a {
+    font-size: 20px;
+    color: white;
+}
+
+.btn_up:hover a {
+    font-size: 18px;
+    color: white;
+}
+
+.w3-grey:hover .w3_light {
+    background-color: greenyellow;
+}
+
+.w3-grey_sm:hover .w3_light_sm {
+    background-color: greenyellow;
 }
 
 /* END OPTION */
