@@ -249,14 +249,23 @@ img {
 .option {
     padding: 1rem;
 }
+.option a {
+    text-decoration: none;
+    color: var(--option);
+}
 
 .option ul {
     list-style: none;
-    color: var(--option);
+    /* color: var(--option); */
     display: flex;
     flex-wrap: wrap;
     font-size: 10px;
     gap: 16px;
+}
+
+li:hover a {
+    display: block;
+    color: white;
 }
 
 /* END OPTION */
