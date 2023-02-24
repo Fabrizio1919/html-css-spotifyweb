@@ -395,11 +395,19 @@ footer.bar_bottom {
     gap: 10px;
 }
 
+
 .footer_center {
 
     color: var(--light); 
     flex-direction: column-reverse;
+    width: 38%;
 }
+
+p.duration {
+    font-size: 11px;
+    margin: 5px;
+}
+
 
 .footer_right {
     padding: 0 5px;
@@ -530,6 +538,8 @@ footer.bar_bottom {
         background-color: var(--foot);
         
     }
+    
+   
     
     
     .bar_bottom {
