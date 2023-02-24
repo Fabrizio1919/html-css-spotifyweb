@@ -307,6 +307,24 @@ li:hover a {
     background-color: greenyellow;
 }
 
+.music {
+    position: relative;
+}
+
+.music i {
+    display: none;
+    left: 40%;
+    top: 35%;
+    position: absolute;
+   
+}
+
+.playlist .music:hover  i {
+    display: block;
+    position: absolute;
+    
+}
+
 /* END OPTION */
 
 /* PLAYLIST */
