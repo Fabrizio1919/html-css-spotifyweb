@@ -279,6 +279,9 @@ img {
     font-size: 12px;
 }
 
+.playlist_radio {
+    display: none;
+}
 
 
 
@@ -342,6 +345,10 @@ footer.bar_bottom {
     margin: 6px 0;
     border-radius: 2px;
 }
+.w3-border span {
+    color: var(--option);
+    font-size: 10px;
+}
 
 .w3_light {
     height: 3px;
@@ -350,6 +357,7 @@ footer.bar_bottom {
     margin: 6px 0;
     border-radius: 2px;
 }
+
 
 
 .w3-grey_sm {
@@ -431,6 +439,12 @@ footer.bar_bottom {
         
     }
 
+    .playlist_radio {
+        display: none;
+    }
+
+
+
 
 
 
@@ -443,6 +457,7 @@ footer.bar_bottom {
     footer.bar_bottom {
         height: 70px;
         background-color: var(--foot);
+        
     }
     
     
@@ -525,6 +540,21 @@ footer.bar_bottom {
     .playlist_2 {
         display: block;
     }
+
+    .playlist_radio {
+        display: block;
+    }
+
+    .playlist_radio h3 {
+        color: var(--light);
+    }
+
+
+    .playlist_radio img {
+        border-radius: 50%;
+    }
+
+
 
 
        /* OPTION 1200*/
